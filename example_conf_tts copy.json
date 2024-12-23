@@ -1,0 +1,11 @@
+{
+    "EXAMPLE": {
+      "tts_name": "gpt-sovits",
+      "gpt-sovits": {
+        "config_path": "configs/tts_infer.yaml",
+        "gpt_model_path": "pretrained_models/gsv-v2final-pretrained/s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+        "sovits_model_path": "pretrained_models/gsv-v2final-pretrained/s2G2333k.pth"
+      }
+    }
+  }
+  

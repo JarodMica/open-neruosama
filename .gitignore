@@ -1,0 +1,16 @@
+.env
+.vscode
+infer_script.py
+
+*.ckpt
+*.pth
+conf_asr.json
+conf_llm.json
+conf_tts.json
+*.wav
+*.gguf
+*.png
+
+venv/
+pretrained_models/
+configs/

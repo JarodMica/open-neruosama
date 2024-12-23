@@ -1,0 +1,19 @@
+{
+    "EXAMPLE": {
+        "asr_name": "whisper",
+        "whisper": {
+            "model_size": "large-v3",
+            "compute_type": "float16",
+            "download_root": "models/whisper"
+        }
+    },
+    "1": {
+        "asr_name": "whisper",
+        "whisper": {
+            "model_size": "base",
+            "compute_type": "float16",
+            "download_root": "models/whisper"
+        }
+    }
+
+}

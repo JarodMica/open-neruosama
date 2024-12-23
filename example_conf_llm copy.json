@@ -1,0 +1,20 @@
+{
+    "EXAMPLE": {
+        "llm_local": true,
+        "local": {
+            "llm_path": "Set/up/path/here.pth",
+            "chat_format": "llama-3",
+            "n_gpu_layers": "-1",
+            "seed": "-1",
+            "n_ctx": "2048",
+            "temperature": "0.8",
+            "top_p": "0.95",
+            "top_k": "40",
+            "max_tokens": "50"
+        },
+        "api": {
+            "project_id": "Best to setup in .env",
+            "api_key": "Best to setup in .env"
+        }
+    }
+}
