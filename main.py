@@ -336,9 +336,9 @@ if __name__ == "__main__":
     neuro.load_llm()
     neuro.load_tts()
     
-    tts_sample_rate = 22050
+    tts_sample_rate = 32000
     if hasattr(neuro.tts.model, "configs"):
-        tts_sample_rate = getattr(neuro.tts.model.configs, "sampling_rate", 22050)
+        tts_sample_rate = getattr(neuro.tts.model.configs, "sampling_rate", 32000)
 
     r = sr.Recognizer()
     r.pause_threshold = 1.5
